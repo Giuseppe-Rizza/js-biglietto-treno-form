@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 600px;
+    width: 1200px;
+    background-color: brown;
+    margin: 100px auto;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.small-container {
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+}
