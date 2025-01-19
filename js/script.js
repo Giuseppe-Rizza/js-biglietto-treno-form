@@ -1,9 +1,9 @@
 // richiesta info all'utente (km da percorrere ed età)
-const kmViaggio = document.getElementById("km-viaggio").parseFloat;
-const etaUtente = document.getElementById("eta-utente").parseInt;
+const kmPercorsi = document.getElementById("km-viaggio");
+const etaUtente = document.getElementById("eta-utente");
 const button = document.querySelector("button");
 
-const km = kmViaggio.value;
+const km = kmPercorsi.value;
 const eta = etaUtente.value;
 
 button.addEventListener("click", () => {
